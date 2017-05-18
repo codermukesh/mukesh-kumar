@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        #header
+        {
+            height: 80px;
+            font-size: 27pt;
+            font-family: cursive;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            color:white;
+
+
+            padding-left: 25px;
+            margin: -7px;
+            background-color:cornflowerblue;
+
+        }
+        #footer
+        {background-color: cornflowerblue;
+            height:100px;
+            font-size:14px;
+            color:white;
+            padding:3px;
+            padding-left: 5px;
+            clear:both;
+            margin-top:45px}
+        .offer {background-color: skyblue  ;
+        }
+        #pbaba
+        {height: 80px;
+            width: 95px;
+            margin:2px}
+
+        ul#patta {
+            padding: 0;
+        }
+
+        ul#patta li {
+            display: inline;
+        }
+
+        ul#patta li a {
+            background-color:darkblue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px 4px 0 0;
+        }
+
+        ul#patta li a:hover {
+            background-color: dodgerblue;
+        }
+
+        #sites
+        {
+            background-color: white;
+            height:70px;
+            font-size: 40px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body bgcolor="white">
+
+<div id="header">
+    <img src="images/baba.jpg" id="pbaba">
+
+    CouponsBABA
+
+</div>
+<div id="patta1">
+    <ul id="patta">
+        <li><a href="frontPage.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="marketingoffers.html">MARKETING OFFERS</a></li>
+        <li><a href="rechargeoffers.html">RECHARGE OFFERS</a></li>
+        <li><a href="cashbackoffers.html">CASHBACK OFFERS</a></li>
+        <li><a href="restaurantoffers.html">RESTAURANT OFFERS</a></li>
+        <li><a href="hoteloffers.html">HOTEL OFFERS</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+
+    </ul>
+</div >
+
+<h1 style="color: dodgerblue"><b>Paytm Cashback Offers</b></h1><hr>
+<h3>Paytm gives cashback on almost all the products.<br>
+    So,if you are fond of cashback,you must visit paytm.com by clicking <a href="http://www.paytm.com">here</a></h3>
+
+<ul>
+    <div class="offer">
+
+        <li><h2 >Rs.50 Cashback On Rs.100 for Recharge (New User) </h2></li>
+        <p> Recharge of Rs 100 or more and get Rs.50 as cashback which can be used further for recharge or marketing. </p>
+
+        <button type="button" onclick="myFunction1()">Click for Coupon</button>
+
+        <p id="demo1"></p>
+
+        <script>
+            function myFunction1() {
+                document.getElementById("demo1").innerHTML = "NEW50";
+            }
+        </script>
+
+    </div>
+    <div class="offer">
+
+        <li><h2 >Rs. 100 Cashback on Broadband Bill Payment of Rs 600</h2></li>
+        <p>100 Cashback on Broadband Bill Payment of Rs 600.Online postpaid,
+            dth or data card bill payment offers from paytm on Airtel, Idea, Vodafone, BSNL, Reliance, Aircel, Tata Docomo
+            and more networks. </p>
+
+        <button type="button" onclick="myFunction2()">Click for Coupon</button>
+
+        <p id="demo2"></p>
+
+        <script>
+            function myFunction2() {
+                document.getElementById("demo2").innerHTML = "BROADBAND"
+            }
+        </script>
+
+    </div>
+
+    <div class="offer">
+
+        <li><h2 >Flat Rs.100 Cashback on Bus Bookings</h2></li>
+        <p>Flat Rs.100 Cashback on Bus Bookings.Book your bus tickets online using paytm bus coupons.
+            Just log on to paytm and book your bus ticket online within a minutes </p>
+        <button type="button" onclick="myFunction3()">Click for Coupon</button>
+
+        <p id="demo3"></p>
+
+        <script>
+            function myFunction3() {
+                document.getElementById("demo3").innerHTML = "BUS100";
+            }
+        </script>
+
+    </div>
+
+
+    <div class="offer">
+
+        <li><h2 >Pay Your Electricity Bill Win iPhone 6S & 100% Cashback - Paytm Offers</h2></li>
+        <p>Pay Your Electricity Bill WiniPhone 6S & 100% Cashback.<br>
+            User needs to pay the Electricity Bill on Paytm to be eligible for the offer.<br>
+            Use Paytm promocode PAY2WIN to avail the offer and to be considered for the Lucky Draw</p>
+        <button type="button" onclick="myFunction4()">Click for Coupon</button>
+
+        <p id="demo4"></p>
+
+        <script>
+            function myFunction4() {
+                document.getElementById("demo4").innerHTML = "PLAY2WIN";
+            }
+        </script>
+
+    </div>
+
+
+    <div class="offer">
+
+        <li><h2 >30% Cashback on Hotel Bookings</h2></li>
+        <p>Book your online hotel booking via paytm.com<br>
+            for both domestic and international hotel booking with extra cashback.<br>
+            By using paytm coupons to book hotel on cheapest rate.</p>
+        <button type="button" onclick="myFunction5()">Click for Coupon</button>
+
+        <p id="demo5"></p>
+
+        <script>
+            function myFunction5() {
+                document.getElementById("demo5").innerHTML = "HTL30";
+            }
+        </script>
+
+    </div>
+
+
+
+    <div class="offer">
+
+        <li><h2 >Rs.50 Cashback on Purchase of Rs.249 (New Users)</h2></li>
+        <p> Flat Rs.50 Cashback on Purchase of Rs.249 & above.Offer is valid only for New Users.<br>
+            Applicable on Paytm Web/Mobile App.<br>
+            Applicable for only first time transacting users on marketplace transactions.</p>
+
+        <button type="button" onclick="myFunction6()">Click for Coupon</button>
+
+        <p id="demo6"></p>
+
+        <script>
+            function myFunction6() {
+                document.getElementById("demo6").innerHTML = "HNK";
+            }
+        </script>
+
+    </div>
+
+    >
+
+
+    <div class="offer">
+
+        <li><h2 >Upto Rs.5000 Cashback on Android Mobiles</h2></li>
+        <p>
+            Top Selling Mobiles Including 6S 16 GB & 5S 16 GB & get Upto Rs.5000<br>
+            Cashback.Top brandsapple, asus, gionee, HTC, Samsung, intex, lenovo, micromax, MTS, Nokia, i kall, infocus, yu & phicomm
+        </p>
+        <button type="button" onclick="myFunction8()">Click for Coupon</button>
+
+        <p id="demo8"></p>
+
+        <script>
+            function myFunction8() {
+                document.getElementById("demo8").innerHTML = "DEPEND ON PRODUCT";
+            }
+        </script>
+
+    </div>
+
+    <div class="offer">
+
+        <li><h2 >Flat 50% Cashback on Kurtis</h2></li>
+        <p>Flat 50% Cashback on Kurtis. various styles such as anarkali kurti, cotton kurti,<br>
+            primnted kurti, rayon, pplyster, etc. Get more fabulous extra discount coupons and cashback offers on women's fashion.</p>
+        <button type="button" onclick="myFunction9()">Click for Coupon</button>
+
+        <p id="demo9"></p>
+
+        <script>
+            function myFunction9() {
+                document.getElementById("demo9").innerHTML = "WEEK50";
+            }
+        </script>
+
+    </div>
+
+
+
+
+</ul>
+</div>
+
+<div id="footer">
+    <p6><b>CouponsBABA</b> - Our moto is to save more and more on shopping.<br>
+        We provide the most updated coupon codes, deals and promotions to help online shoppers save more.</p6><br>
+
+    <p4>FOLLOW US ON:</p4><br>
+    <a href="http://www.facebook.com">
+        <img src="popular%20sites/fb.png"  style="width:42px;height:42px;border:0">
+    </a>
+    <a href="http://www.twitter.com">
+        <img src="popular%20sites/twi.png"  style="width:42px;height:42px;border:0"></a>
+</div>
+</body>
+
+
+</html>
